@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+#searchForm {
+  width: 100%;
+  position: relative;
+  top: 40px;
+}
+
+/* Google logo */
+.logo {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 45px;
+  padding-top: 4px;
+}
+
+.logoUrl {
+  display: inline-block;
+}
+
+.GoogleLogo {
+  width: 92px;
+  height: 30;
+}
+
+
+/* Search input */
+
+.searchInputBorder {
+  display: inline-block;
+  position: absolute;
+  width: 690px;
+  height: 44px;
+  border-radius: 24px;
+  box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+#searchInputWrapper {
+  padding-left: 17px;
+}
+
+#searchInput {
+  height: 38px;
+  width: 90%;
+  border: none;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+  outline: none;
+  padding: 3px 0 3px 0;
+}
